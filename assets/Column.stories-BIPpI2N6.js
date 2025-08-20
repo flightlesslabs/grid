@@ -1,0 +1,3 @@
+import{p as r,t as n,a as l,b as i}from"./iframe-N8KK-9Bi.js";import{G as m,C as p,c,i as u,d}from"./create-runtime-stories-cpFp-iKp.js";import"./preload-helper-D9Z9MdNV.js";const f={size:{control:{type:"select"},options:m}},_={component:p,tags:["autodocs"],argTypes:f,parameters:{docs:{description:{component:""}}}},{Story:C}=d();function t(e,s){r(s,!1),u(),C(e,{name:"Default",children:(o,y)=>{var a=n("Hola!");l(o,a)},$$slots:{default:!0},parameters:{docs:{description:{story:"Default Grid Column"}},__svelteCsf:{rawCode:`<Column {...args}>
+  Hola!
+</Column>`}}}),i()}t.__docgen={data:[],name:"Column.stories.svelte"};const $=c(t,_),x=["Default"],G={...$.Default,tags:["svelte-csf-v5"]};export{G as Default,x as __namedExportsOrder,_ as default,f as storyGridColumnArgTypes};
