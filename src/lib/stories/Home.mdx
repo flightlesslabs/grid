@@ -1,0 +1,51 @@
+import { Source } from '@storybook/addon-docs/blocks';
+import item from '../../../package.json?raw';
+
+<main style={{ textAlign: 'center' }}>
+
+# Grid
+
+<h3 style={{ fontWeight: 500 }}>v{JSON.parse(item)?.version}</h3>
+
+<h3 style={{ fontWeight: 400 }}>Grid component for Svelte.</h3>
+
+### [Github](https://github.com/flightlesslabs/grid) - [npm](https://www.npmjs.com/package/@flightlesslabs/grid)
+
+</main>
+
+<br />
+<br />
+
+## Install
+
+pnpm
+
+<Source
+  dark
+  language="bash"
+  code={`
+pnpm add @flightlesslabs/grid
+`}
+/>
+
+npm
+
+<Source
+  dark
+  language="bash"
+  code={`
+npm i @flightlesslabs/grid
+`}
+/>
+
+## Use it!
+
+Lets import [Grid](?path=/docs/grid--docs) component.
+
+<Source
+  dark
+  language="js"
+  code={`
+import { Grid, Row, Column } '@flightlesslabs/grid';
+`}
+/>
