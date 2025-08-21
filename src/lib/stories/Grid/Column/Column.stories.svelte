@@ -20,3 +20,7 @@
 
 <!-- Default Grid Column -->
 <Story name="Default">Hola!</Story>
+
+<Story name="Sizing" args={{ md: 4 }}>md: 4</Story>
+
+<Story name="Flex" args={{ md: 'flex' }}>Flex</Story>

@@ -10,7 +10,7 @@
     class?: string;
     /** Grid spacing, affects Coulumns */
     spacing?: number;
-    /** Optional Row spacing */
+    /** Optional Row spacing, defaults to 0 */
     rowSpacing?: number;
   }
 </script>
@@ -21,16 +21,14 @@
     class: className = '',
     ref = $bindable<HTMLDivElement>(),
     spacing = 1,
-    rowSpacing,
+    rowSpacing = 0,
   }: GridProps = $props();
-
-  const rowSpacingModified = rowSpacing || rowSpacing === 0 ? rowSpacing : spacing;
 </script>
 
 <div
   class={['Grid', className].join(' ')}
   bind:this={ref}
-  style={`--GridSpacing: ${spacing}; --GridRowSpacing: ${rowSpacingModified};`}
+  style={`--GridSpacing: ${spacing}; --GridRowSpacing: ${rowSpacing};`}
 >
   {#if children}
     {@render children()}
@@ -39,7 +37,7 @@
 
 <style lang="scss">
   .Grid {
-    --base-space: 8px;
+    --base-space: 4px;
 
     display: flex;
     flex-wrap: wrap;

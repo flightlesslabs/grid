@@ -127,6 +127,14 @@
   </Grid>
 </Story>
 
+<!-- Flex Column uses up remaining space -->
+<Story name="Flex" asChild>
+  <Grid>
+    <Column md="flex">md: Flex</Column>
+    <Column md={4}>md: 4</Column>
+  </Grid>
+</Story>
+
 <Story name="Spacing" asChild>
   <Grid spacing={3}>
     <Column>Hola!</Column>
