@@ -4,7 +4,6 @@ import { themes } from 'storybook/theming';
 addons.setConfig({
   theme: {
     ...themes.light,
-    brandTitle: 'Grid',
     brandUrl: 'https://flightlesslabs.github.io/grid',
     brandTarget: '_self',
   },
