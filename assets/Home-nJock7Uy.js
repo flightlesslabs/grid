@@ -1,6 +1,6 @@
-import{j as e,S as t}from"./blocks-BHJIFIoa.js";import{useMDXComponents as r}from"./index-CP5hrkJi.js";import"./preload-helper-D9Z9MdNV.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-N8KK-9Bi.js";const l=`{
+import{j as e,S as t}from"./blocks-BCqw4q4k.js";import{useMDXComponents as r}from"./index-frZYuMpC.js";import"./preload-helper-D9Z9MdNV.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-FsdHsKi4.js";const l=`{
   "name": "@flightlesslabs/grid",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
     "build": "vite build && pnpm run prepack",
     "preview": "vite preview",
@@ -92,7 +92,7 @@ import{j as e,S as t}from"./blocks-BHJIFIoa.js";import{useMDXComponents as r}fro
     "pnpm": "10.15.0"
   }
 }
-`;function i(s){const n={a:"a",h1:"h1",h2:"h2",h3:"h3",p:"p",...r(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsxs("main",{style:{textAlign:"center"},children:[e.jsx(n.h1,{id:"grid",children:"Grid"}),e.jsxs("h3",{style:{fontWeight:500},children:["v",JSON.parse(l)?.version]}),e.jsx("h3",{style:{fontWeight:400},children:"Grid component for Svelte."}),e.jsxs(n.h3,{id:"github---npm",children:[e.jsx(n.a,{href:"https://github.com/flightlesslabs/grid",rel:"nofollow",children:"Github"})," - ",e.jsx(n.a,{href:"https://www.npmjs.com/package/@flightlesslabs/grid",rel:"nofollow",children:"npm"})]})]}),`
+`;function i(s){const n={a:"a",h1:"h1",h2:"h2",h3:"h3",p:"p",...r(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsxs("main",{style:{textAlign:"center"},children:[e.jsx("img",{src:"dodo-circle-6.png",style:{width:200,height:"auto"}}),e.jsx(n.h1,{id:"grid",children:"Grid"}),e.jsxs("h3",{style:{fontWeight:500},children:["v",JSON.parse(l)?.version]}),e.jsx("h3",{style:{fontWeight:400},children:"Grid component for Svelte."}),e.jsxs(n.h3,{id:"github---npm",children:[e.jsx(n.a,{href:"https://github.com/flightlesslabs/grid",rel:"nofollow",children:"Github"})," - ",e.jsx(n.a,{href:"https://www.npmjs.com/package/@flightlesslabs/grid",rel:"nofollow",children:"npm"})]})]}),`
 `,e.jsx("br",{}),`
 `,e.jsx("br",{}),`
 `,e.jsx(n.h2,{id:"install",children:"Install"}),`
